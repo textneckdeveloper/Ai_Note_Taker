@@ -1,7 +1,7 @@
 import React from "react";
-import "../../assets/css/NavBar.css";
+import "../../assets/css/MainNavBar.css";
 
-const NavBar = () => {
+const MainNavBar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-brand">
@@ -17,4 +17,4 @@ const NavBar = () => {
     );
 }
 
-export default NavBar;
+export default MainNavBar;

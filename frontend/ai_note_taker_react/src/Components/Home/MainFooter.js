@@ -1,7 +1,7 @@
 import React from "react";
-import "../../assets/css/Footer.css";
+import "../../assets/css/MainFooter.css";
 
-const Footer = () => {
+const MainFooter = () => {
     return (
         <footer className="footer">
             <p>&copy; 2024 AI 자동 메모 작성 시스템. 모든 권리 보유.</p>
@@ -14,4 +14,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default MainFooter;

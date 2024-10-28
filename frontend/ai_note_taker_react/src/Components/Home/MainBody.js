@@ -1,7 +1,7 @@
 import React from "react";
-import "../../assets/css/Body.css";
+import "../../assets/css/MainBody.css";
 
-const Body = () => {
+const MainBody = () => {
     return (
         <div className="body-container">
             <h1>AI 자동 메모 작성 시스템</h1>
@@ -19,4 +19,4 @@ const Body = () => {
     );
 }
 
-export default Body;
+export default MainBody;
