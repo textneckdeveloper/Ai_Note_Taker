@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* 양 끝에 요소 배치 */
+    align-items: center; /* 수직 정렬 */
+    background-color: #007bff; /* 네비게이션 바 배경색 */
+    padding: 10px 20px; /* 패딩 */
+    color: white; /* 텍스트 색상 */
+}
+
+.navbar a {
+    color: white; /* 링크 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    margin: 0 15px; /* 링크 간격 */
+    transition: color 0.3s; /* 색상 변화 전환 */
+}
+
+.navbar a:hover {
+    color: #ffcc00; /* 호버 시 색상 변경 */
+}
+
+.navbar-brand {
+    font-size: 1.5em; /* 브랜드 이름 크기 */
+    font-weight: bold; /* 두껍게 표시 */
+}

@@ -1,0 +1,26 @@
+#wrap {
+    width:100%;
+    height:500px;
+    margin:0 auto;
+    border:4px solid #000;
+}
+
+.container {
+    width:100%;
+    height:492px;
+    margin:0 auto;
+    border:4px solid #000;
+}
+
+.container div {
+    display:inline-block;
+    height:100%;
+}
+.container div:first-child {
+    width:33.33333333333333%;
+    background:#e75d5d;
+}
+.container div:first-child + div {
+    width:66.66666666666667%;
+    background:#2dcc70;
+}

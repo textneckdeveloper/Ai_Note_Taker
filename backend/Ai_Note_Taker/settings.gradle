@@ -1,0 +1,4 @@
+rootProject.name = 'Ai_Note_Taker'
+
+include 'backend'
+include 'frontend'
