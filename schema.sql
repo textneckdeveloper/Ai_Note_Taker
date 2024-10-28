@@ -3,11 +3,11 @@ CREATE DATABASE ai_note_taker;
 USE ai_note_taker;
 
 CREATE TABLE User (
-	user_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
     email VARCHAR(255) NOT NULL UNIQUE
 );
 CREATE TABLE Local_User (
-	user_id INT PRIMARY KEY,
+    user_id INT PRIMARY KEY,
     role VARCHAR(25) NOT NULL DEFAULT 'USER_ROLE',
     password VARCHAR(255) NOT NULL, -- bcrypt
     created_date DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -15,7 +15,7 @@ CREATE TABLE Local_User (
     FOREIGN KEY (user_id) REFERENCES User (user_id) ON DELETE CASCADE
 );
 CREATE TABLE Social_User (
-	user_id INT PRIMARY KEY,
+    user_id INT PRIMARY KEY,
     role VARCHAR(25) NOT NULL DEFAULT 'USER_ROLE',
     provider VARCHAR(50) NOT NULL,
     provider_id VARCHAR(255) NOT NULL UNIQUE,
