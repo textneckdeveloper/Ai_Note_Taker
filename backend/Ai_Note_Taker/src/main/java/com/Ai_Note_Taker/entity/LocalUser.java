@@ -38,7 +38,7 @@ public class LocalUser {
 	private LocalDateTime modifiedDate;
 	
 	@OneToOne
-    @MapsId
+	@MapsId
     @JoinColumn(name = "user_id")
     private User user;
 
