@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.dto;
+package com.ai_note_taker.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

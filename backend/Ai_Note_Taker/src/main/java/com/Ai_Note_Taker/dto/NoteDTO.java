@@ -1,6 +1,7 @@
-package com.Ai_Note_Taker.dto;
+package com.ai_note_taker.dto;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,11 +14,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class NoteDTO {
 
-	private int noteId;
-	private int userId;
+	private Long noteId;
+	private Long userId;
 	private String title;
 	private String content;
 	private LocalDateTime createdDate;
 	private LocalDateTime modifiedDate;
+	private List<NoteImageDTO> noteImages;
 	
 }

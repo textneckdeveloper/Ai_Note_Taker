@@ -1,4 +1,6 @@
-package com.Ai_Note_Taker.dto;
+package com.ai_note_taker.dto;
+
+import java.util.List;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +13,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class UserDTO {
 
-	private int userId;
+	private Long userId;
 	private String email;
+	private List<NoteDTO> notes;
 	
 }

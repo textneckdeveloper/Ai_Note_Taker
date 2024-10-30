@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.entity;
+package com.ai_note_taker.entity;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -29,7 +29,7 @@ public class Note {
 	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer noteId;
+    private Long noteId;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false)

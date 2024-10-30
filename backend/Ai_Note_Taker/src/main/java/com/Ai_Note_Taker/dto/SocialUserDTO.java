@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.dto;
+package com.ai_note_taker.dto;
 
 import java.time.LocalDateTime;
 
@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class SocialUserDTO {
 	
-	private int userId;
+	private Long userId;
 	private String role;
 	private String provider;
 	private String provider_id;

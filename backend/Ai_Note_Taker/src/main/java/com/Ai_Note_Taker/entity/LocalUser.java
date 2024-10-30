@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.entity;
+package com.ai_note_taker.entity;
 
 import java.time.LocalDateTime;
 
@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 public class LocalUser {
 	
 	@Id
-	private int userId;
+	private Long userId;
 	
 	@Column(nullable = false, length = 25)
 	private String role = "ROLE_USER";

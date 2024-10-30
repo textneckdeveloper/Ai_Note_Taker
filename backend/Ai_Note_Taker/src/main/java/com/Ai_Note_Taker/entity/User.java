@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.entity;
+package com.ai_note_taker.entity;
 
 import java.util.List;
 
@@ -28,7 +28,7 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int userId;
+	private Long userId;
 	
     @Column(nullable = false, unique = true)
     private String email;

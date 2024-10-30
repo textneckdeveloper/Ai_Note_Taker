@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.controller;
+package com.ai_note_taker.controller;
 
 public class UserController {
 

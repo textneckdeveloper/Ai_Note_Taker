@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.dto;
+package com.ai_note_taker.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,8 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class NoteImageDTO {
 
-	private int imageId;
-	private int noteId;
+	private Long imageId;
+	private Long noteId;
 	private String imageUrl;
 	
 }

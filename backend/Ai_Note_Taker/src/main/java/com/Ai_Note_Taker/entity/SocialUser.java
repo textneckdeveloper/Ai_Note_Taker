@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.entity;
+package com.ai_note_taker.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -17,7 +17,7 @@ import java.time.LocalDateTime;
 public class SocialUser {
 	
     @Id
-    private Integer userId;
+    private Long userId;
 
     @Column(nullable = false, length = 25)
     private String role  = "ROLE_USER";

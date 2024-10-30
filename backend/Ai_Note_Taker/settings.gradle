@@ -1,4 +1,4 @@
-rootProject.name = 'Ai_Note_Taker'
+rootProject.name = 'ai_note_taker'
 
 include 'backend'
 include 'frontend'

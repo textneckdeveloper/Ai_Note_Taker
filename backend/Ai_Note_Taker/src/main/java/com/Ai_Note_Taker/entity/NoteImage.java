@@ -1,4 +1,4 @@
-package com.Ai_Note_Taker.entity;
+package com.ai_note_taker.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -16,7 +16,7 @@ public class NoteImage {
 	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int imageId;
+    private Long imageId;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "note_id", nullable = false)
