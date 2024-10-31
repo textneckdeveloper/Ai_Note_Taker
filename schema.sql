@@ -40,12 +40,3 @@ CREATE TABLE Note_Image (
     image_url VARCHAR(500) NOT NULL,
     FOREIGN KEY (note_id) REFERENCES Note (note_id) ON DELETE CASCADE
 );
-
-SELECT * FROM User;
-SELECT * FROM Local_User;
-SELECT * FROM Social_User;
-
-SELECT * FROM Note;
-SELECT * FROM Note_Image;
-
-DELETE FROM USER WHERE email Like "text%";
